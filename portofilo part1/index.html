@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <!-- phele ekk wrapper banayege saare content iss wrapper ke andar aayege -->
+
+    <div class="container">
+      <!-- yehi wrapper ke andar ekk container bana liya -->
+
+      <div class="navbar">
+        <!-- container mai sabse phela component hai navbar issme two items hai -->
+        <div class="logo-container">
+          <!-- first item hai logo that is john doe -->
+          <!-- j wala images bhi hai aur ohn doe text bhi hai -->
+          <img src="NavLogo.jpg" class="logo">
+          <div class="logo-text">ohn Doe</div>
+        </div>
+        <div class="nav-items">
+          <!-- yeh dusare items hai navbar ke -->
+          <div><a href="#projects">projects</a></div>
+          <div><a href="#skills">skills</a></div>
+          <div><a href="#conatactme">contact me</a></div>
+        </div>
+      </div>
+
+
+      <div class="hero-section">
+        <!-- navbar ke baad ab her-section banaya hai -->
+        <div class="absolute faded-text">John Doe</div>
+        <!-- faded text bhi place kar diya left side beacuse it is part of that  -->
+  
+        <div class="hero-section-left">
+          <!-- herosection mai left part first create kiya -->
+       <div class="hero-section-heading">Hi!! John Doe</div>
+       <!-- left part mai heading tha hii john doe tha wohi create kiya -->
+       <div class=" hero-section-heading hero-section-subheading">
+        <!-- phir heading ke baad ekk subheading tha woh create kiya -->
+        I am a <span class="role"></span>
+       </div>
+  <div class="hero-section-description">
+    <!-- phir ussi left hero section mai third part description tha woh create kiya -->
+    I'm a software developer and here is my portfolio website.Here you'll
+    learn about my journey as a software developer.
+  </div>
+          <div class="btn-pink" id="btn" >Hire me</div>
+          <!-- last componenet left side ka hire me wala button hai -->
+        </div>
+  
+        <div class="hero-section-right">
+          <!-- left ke baad hero section right side create kiya -->
+          <div class="absolute icons icon-dots">
+            <!-- woh right side mai bohot saare images hai wohi saare images place kiye hai -->
+            <img src="dots.png">
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="cube.png">
+              </div>
+              <div class="absolute icons icon-circle">
+                <img src="circle.png">
+                </div>
+                <div class="absolute icons icon-zigzak">
+                  <img src="zigzags.png">
+                  </div>
+                  <div class="absolute icons icon-plus">
+                    <img src="plus.png">
+                    </div>
+                    <div class="user-image">
+                      <img src="UserImage.png">
+                      </div>
+
+     </div>
+   </div>
+    </div>
+<div class="project-section" id="projects">
+  <!-- first ekk project ka section hai -->
+  <h2 class="page-header">Projects</h2>
+  <!-- project section mai heading aaya sabse phele -->
+
+  <div class="projector-container">
+    <!-- project section mai total 4 cards hai issliye 4 cards ko place
+     karne ke liye container banaya -->
+   <div class="project-card" id="project1">
+    <div class="project-number project-number-right">01</div>
+    <div class="project-content project-content-left">
+      <div class="project-skills-container">
+        <img class="project-skill" src="HTML.png">
+        <img class="project-skill" src="CSS.png">
+        <img class="project-skill" src="Javascript.svg">
+        <img class="project-skill" src="Express.png">
+        <img class="project-skill" src="NextJsCircle.png">
+        <img class="project-skill" src="Tailwind.png">
+        <img class="project-skill" src="NodeJs.svg">
+        <img class="project-skill" src="MongoDB.svg">
+        <img class="project-skill" src="Redux.svg">
+        <img class="project-skill" src="Vercel.svg">
+
+      </div>
+     <h2 class="project-heading">Tint & Orange</h2>
+     <div class="project-subheading">It is a car modification company which provide you sheets to
+      protect your car from stratch
+    </div>
+    <div class="btn-grp">
+      <button class="btn-pink btn-project">Read More</button>
+      <!-- <a href="">
+      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+      </a>
+      <a href=""> -->
+      <!-- <i title="Live Link" class="fa-solid fa-link icon"></i> -->
+      </a>
+    </div>
+    </div>
+   </div>
+
+   <div class="project-card" id="project2">
+    <div class="project-number project-number-left">02</div>
+    <div class="project-content project-content-right">
+      <div class="project-skill-container">
+        <img class="project-skill" src="HTML.png">
+        <img class="project-skill" src="CSS.png">
+        <img class="project-skill" src="Javascript.svg">
+        <img class="project-skill" src="Express.png">
+        <img class="project-skill" src="NextJsCircle.png">
+        <img class="project-skill" src="Tailwind.png">
+        <img class="project-skill" src="NodeJs.svg">
+        <img class="project-skill" src="MongoDB.svg">
+        <img class="project-skill" src="Redux.svg">
+        <img class="project-skill" src="Vercel.svg">
+
+      </div>
+     <h2 class="project-heading">Breaking Copyrights</h2>
+     <div class="project-subheading">A platform to download copyrights free youtube music
+    </div>
+    <div class="btn-grp">
+      <button class="btn-pink btn-project">Read More</button>
+      <!-- <a href="">
+      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+      </a>
+      <a href="">
+      <i title="Live Link" class="fa-solid fa-link icon"></i>
+      </a> -->
+    </div>
+    </div>
+   </div>
+
+   <div class="project-card" id="project3">
+    <div class="project-number project-number-right">03</div>
+    <div class="project-content project-content-left">
+      <div class="project-skill-container">
+        <img class="project-skill" src="HTML.png">
+        <img class="project-skill" src="CSS.png">
+        <img class="project-skill" src="Javascript.svg">
+        <img class="project-skill" src="Express.png">
+        <img class="project-skill" src="NextJsCircle.png">
+        <img class="project-skill" src="Tailwind.png">
+        <img class="project-skill" src="NodeJs.svg">
+        <img class="project-skill" src="MongoDB.svg">
+        <img class="project-skill" src="Redux.svg">
+        <img class="project-skill" src="Vercel.svg">
+
+      </div>
+     <h2 class="project-heading">Isha Tattava</h2>
+     <div class="project-subheading">A website for interior designer to show her works and sample
+    </div>
+    <div class="btn-grp">
+      <button class="btn-pink btn-project">Read More</button>
+      <!-- <a href="">
+      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+      </a>
+      <a href="">
+      <i title="Live Link" class="fa-solid fa-link icon"></i>
+      </a> -->
+    </div>
+    </div>
+   </div>
+
+   <div class="project-card" id="project4">
+    <div class="project-number project-number-left">04</div>
+    <div class="project-content project-content-right">
+      <div class="project-skill-container">
+        <img class="project-skill" src="NextJsCircle.png">
+        <img class="project-skill" src="Tailwind.png">
+        <img class="project-skill" src="Vercel.svg">
+
+      </div>
+     <h2 class="project-heading">Granit</h2>
+     <div class="project-subheading">A architectural website to plan your building or home
+      (hebrew lanuage)
+    </div>
+    <div class="btn-grp">
+      <button class="btn-pink btn-project">Read More</button>
+      <!-- <a href="">
+      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+      </a>
+      <a href="">
+      <i title="Live Link" class="fa-solid fa-link icon"></i>
+      </a> -->
+    </div>
+    </div>
+   </div>
+  
+
+      
+
+  </div>
+
+
+
+</div>
+
+  <div id="skills" class="container skills-container " >
+    <!-- container likhne se container ki bhi property add ho jaati hai -->
+
+<div class="skill-fade-text">Skills</div>
+
+<div class="skill-container-left">
+<h2 class="skill-heading"> 
+  <span class="caps">M</span>e and
+  <br/>
+  MyTech Stack
+</h2>
+<div class="skill-subheading">
+  <p>
+    Hi!EVERYONE MY NAME IS JOHNE DOE I AM FULL STACK WEB DEVELOPER I HAVE BEEN WORKING FOR LAST 3 YEARS AND CURRENTLY I AM WORKING WITH A 
+    BUILDING STARTUP IN USA AND A FULL TIME FREELANCER.CURRENTLY I AM 
+    WORKING ON NEXTJS AND MAKING BEAUTIFUL UI-UX ARE MY FEY FEATURES
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem harum ducimus rerum quaerat accusamus quos fugit tempora, in animi delectus consequatur! Debitis, totam alias iste magni quam molestias hic odit?
+  </p>
+  <p>
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae distinctio illo laboriosam expedita quas provident? Consequatur temporibus aspernatur sed soluta?
+  </p>
+</div>
+</div>
+
+<div class="skill-container-right">
+  <img src="blob vector.png" class="blob-style"/>
+
+
+  <img src="HTML.png" class="skills-logo"/>
+  <img src="CSS.png" class="skills-logo"/>
+  <img src="Javascript.svg" class="skills-logo"/>
+  <img src="React.png" class="skills-logo"/>
+  <img src="NodeJs.svg" class="skills-logo"/>
+  <img src="Next.svg" class="skills-logo"/>
+  <img src="Redux.svg" class="skills-logo"/>
+  <img src="Tailwind.png" class="skills-logo"/>
+  <img src="Bootstrap.svg" class="skills-logo"/>
+  <img src="MaterialUI.svg" class="skills-logo"/>
+  <img src="Express.png" class="skills-logo"/>
+  <img src="Git.svg" class="skills-logo"/>
+  <img src="Github.svg" class="skills-logo"/>
+  <img src="Graphql.svg" class="skills-logo"/>
+  <img src="MongoDB.svg" class="skills-logo"/>
+  <img src="Vercel.svg" class="skills-logo"/>
+  <img src="ChartJs.svg" class="skills-logo"/>
+  <img src="Bash (1).svg" class="skills-logo"/>
+  <img src="Docker.svg" class="skills-logo"/>
+  <img src="K8s.svg" class="skills-logo"/>
+</div>
+
+
+
+  </div>
+  
+<div class="contactus-form-container" id="conatactme">
+  <div class="container">
+    <h1 class="contactus-heading">Contact me</h1>
+    <h3 class="contactus-subheading">Questions,thoughts,or just want to say hello?
+
+    </h3>
+    <div class="contactus-form-container">
+      <form class="form" action ="">
+  <div class="formfield-container">
+    <input class="formfield"
+     type="text"
+      name="name"
+       id=""
+       placeholder="Enter your name" />
+
+       <input class="formfield"
+        type="email"
+         name="email"
+          id=""
+           placeholder="Enter your Email address" />
+
+           <input class="formfield"
+           type="text"
+            name="subject"
+             id=""
+              placeholder="Enter your subject" />
+
+              <textarea name="message"
+               id="" cols="30" rows="10"
+               class="formfield formfield-textarea"
+                placeholder="Enter your message"></textarea>
+  </div>
+
+  <div>
+    <button type="submit" class="btn-pink" id="submit-btn">
+      Send message<i class=" submit-icon fa-brands fa-telegram fa-lg"></i>
+    </button>
+  </div>
+      </form>
+    </div>
+
+
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-faded-text">John Doe</div>
+<div class="link-wrapper">
+  <div class="nav-items">
+    <div><a href="#projects">projects</a></div>
+    <div><a href="#skills">skills</a></div>
+    <div><a href="#conatactme">contact me</a></div>
+  </div>
+</div>
+     
+
+        <div class="icon-wrapper">
+          <i class=" btn fa-brands fa-linkedin "></i>
+ <i class=" btn-2 fa-brands fa-instagram "></i>
+ <i class=" btn-3 fa-brands fa-twitter "></i>
+<!-- <i class="fa-brands fa-square-github"> -->
+ <i class="fa-solid fa-envelope "></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+ </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "Flutter Developer",
+                "Frontend Developer",
+                "Backend Developer",
+                "Java Developer",
+                "Python Developer",
+                "DSA Expert",
+                "Competitive Coder",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+
+
+</html>
